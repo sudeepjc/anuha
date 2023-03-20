@@ -1,0 +1,17 @@
+{
+  "name": "anuha",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "console": "hardhat console",
+    "node": "hardhat node",
+    "gas-golf-1": "npx hardhat test test/gas-golfing-1/test.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}
