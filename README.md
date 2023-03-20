@@ -9,8 +9,15 @@ Solidity Smart Contract Developer || Gas Optimization || YUL || Audit
 My Social handles
 
 LinkedIn: [https://www.linkedin.com/in/sudeep-sagar/](https://www.linkedin.com/in/sudeep-sagar/)
+
 Twitter: [https://twitter.com/sudeepjc](https://twitter.com/sudeepjc)
+
 GitHub: [https://www.github.com/sudeepjc](https://www.github.com/sudeepjc) (needs serious cleanup)
+
+Run samples using the command
+```shell
+npm run gas-golf-1  (gas-golf-1 is the folder name under contracts)
+```
 
 Try running some of the following tasks:
 
