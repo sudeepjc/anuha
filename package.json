@@ -5,7 +5,8 @@
     "test": "hardhat test",
     "console": "hardhat console",
     "node": "hardhat node",
-    "gas-golf-1": "npx hardhat test test/gas-golfing-1/test.js"
+    "gas-golf-1": "npx hardhat test test/gas-golfing-1/test.js",
+    "gas-golf-2": "npx hardhat test test/gas-golfing-2/test.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",

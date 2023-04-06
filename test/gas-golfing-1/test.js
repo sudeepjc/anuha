@@ -23,10 +23,10 @@ describe("Gas-Golfing-1: uint8 vs uint256", function () {
     it("Gas cost of executing uint256 version is less than uint8", async function () {
 
       const uint8GasCost = await this.sampleUint8.estimateGas.someFunction();
-      console.log(` uint8 version of reentrancy: ${uint8GasCost} gas uints`);
+      console.log(` uint8 version of someFunction: ${uint8GasCost} gas uints`);
 
       const uint256GasCost = await this.sampleUint256.estimateGas.someFunction();
-      console.log(` uint256 version of reentrancy: ${uint256GasCost} gas units`);
+      console.log(` uint256 version of someFunction: ${uint256GasCost} gas units`);
 
       expect(uint256GasCost).lt(uint8GasCost);
     });
